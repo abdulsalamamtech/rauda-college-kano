@@ -31,7 +31,7 @@ const Admission = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white/10"
+                className="border-white text-medical-800 hover:bg-white"
               >
                 Download Brochure
               </Button>

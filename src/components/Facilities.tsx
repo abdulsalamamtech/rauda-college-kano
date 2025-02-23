@@ -3,7 +3,7 @@ import { Microscope, Hospital, GraduationCap, Book } from "lucide-react";
 
 const facilities = [
   {
-    image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop",
     title: "Advanced Laboratories",
     description: "State-of-the-art research and training facilities.",
     icon: Microscope
@@ -30,7 +30,7 @@ const facilities = [
 
 const Facilities = () => {
   return (
-    <section className="py-20 bg-white">
+    <section id="facilities" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

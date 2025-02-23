@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-medical-50/30">
+    <div id="about" className="min-h-screen bg-medical-50/30">
       <div className="container mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

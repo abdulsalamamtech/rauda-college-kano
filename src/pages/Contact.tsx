@@ -178,7 +178,7 @@ const Contact = () => {
                     <p className="text-medical-600">
                       123 Medical College Street<br />
                       Healthcare District<br />
-                      New York, NY 10001
+                      Kano State, Nigeria.
                     </p>
                   </div>
                 </div>
@@ -188,8 +188,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-medical-900 mb-1">Phone</h3>
                     <p className="text-medical-600">
-                      +1 (555) 123-4567<br />
-                      +1 (555) 987-6543
+                      +234 80 6545 4117<br />
+                      +234 80 6545 4117
                     </p>
                   </div>
                 </div>
@@ -199,8 +199,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-medical-900 mb-1">Email</h3>
                     <p className="text-medical-600">
-                      info@medicalcollege.edu<br />
-                      admissions@medicalcollege.edu
+                      info@raudacollege.edu.ng<br />
+                      admissions@raudacollege.edu.ng
                     </p>
                   </div>
                 </div>

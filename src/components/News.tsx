@@ -11,27 +11,30 @@ const news = [
     title: "Breakthrough Research in Medical Technology",
     date: "March 15, 2024",
     category: "Research",
-    description: "Our faculty leads groundbreaking research in medical imaging technology."
+    description: "Our faculty leads groundbreaking research in medical imaging technology.",
+    imageUrl: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop"
   },
   {
     id: "2",
     title: "New State-of-the-Art Simulation Lab",
     date: "March 10, 2024",
     category: "Facilities",
-    description: "Advanced simulation laboratory opens for medical training."
+    description: "Advanced simulation laboratory opens for medical training.",
+    imageUrl: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2078&auto=format&fit=crop"
   },
   {
     id: "3",
     title: "International Medical Conference 2024",
     date: "March 5, 2024",
     category: "Events",
-    description: "Join us for the annual international medical conference."
+    description: "Join us for the annual international medical conference.",
+    imageUrl: "/images/medical-icu-lab.png"
   }
 ];
 
 const News = () => {
   return (
-    <section className="py-20 bg-medical-50/50">
+    <section id="news" className="py-20 bg-medical-50/50">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -56,11 +59,16 @@ const News = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full hover:shadow-lg transition-shadow duration-300">
+              <Card className={`h-full hover:shadow-lg transition-shadow duration-300 bg-[url("${item.imageUrl}")] bg-cover bg-transparent bg-center`}>
                 <CardHeader>
                   <div className="flex items-center gap-2 text-medical-600 text-sm mb-2">
                     <Calendar className="h-4 w-4" />
                     {item.date}
+                  </div>
+                  <div className={`text-medical-500  py-3 bg-[url('/images/medical-icu-lab.png')]`}>
+                    Rauda college
+                    <img src="medical-icu-lab.png" alt="" />
+                    {/* <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop" alt="" /> */}
                   </div>
                   <CardTitle className="text-xl text-medical-800">
                     {item.title}

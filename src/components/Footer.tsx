@@ -13,43 +13,78 @@ const Footer = () => {
               Leading medical institution dedicated to excellence in healthcare education, research, and innovation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-medical-100 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/Raudacollege" className="text-medical-100 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-medical-100 hover:text-white transition-colors">
+              <a href="https://www.x.com/rauda-college" className="text-medical-100 hover:text-white transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-medical-100 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/rauda-college" className="text-medical-100 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-medical-100 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/rauda-college" className="text-medical-100 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#home" className="text-medical-100 hover:text-white transition-colors">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#services" className="text-medical-100 hover:text-white transition-colors">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#staff" className="text-medical-100 hover:text-white transition-colors">
+                    Staff
+                  </a>
+                </li>
+                <li>
+                  <a href="#facilities" className="text-medical-100 hover:text-white transition-colors">
+                    Facilities
+                  </a>
+                </li>
+                <li>
+                  <a href="#news" className="text-medical-100 hover:text-white transition-colors">
+                    News & Events
+                  </a>
+                </li>
               <li>
-                <a href="#" className="text-medical-100 hover:text-white transition-colors">
+                <a href="#courses" className="text-medical-100 hover:text-white transition-colors">
+                  Courses
+                </a>
+              </li>
+              <li>
+                <a href="about" className="text-medical-100 hover:text-white transition-colors">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="programs" className="text-medical-100 hover:text-white transition-colors">
                   Programs
                 </a>
               </li>
               <li>
-                <a href="#" className="text-medical-100 hover:text-white transition-colors">
-                  Admissions
+                <a href="gallery" className="text-medical-100 hover:text-white transition-colors">
+                  Gallery
                 </a>
               </li>
               <li>
-                <a href="#" className="text-medical-100 hover:text-white transition-colors">
-                  Research
+                <a href="contact" className="text-medical-100 hover:text-white transition-colors">
+                  Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="text-medical-100 hover:text-white transition-colors">
-                  Campus Life
+                <a href="#testimonial" className="text-medical-100 hover:text-white transition-colors">
+                  Testimonial
                 </a>
               </li>
             </ul>
@@ -61,15 +96,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-medical-100" />
-                <span className="text-medical-100">contact@medicalcollege.edu</span>
+                <span className="text-medical-100">info@raudacollege.edu.ng</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-medical-100" />
-                <span className="text-medical-100">+1 (555) 123-4567</span>
+                <span className="text-medical-100">+234 80 6545 4117</span>
               </li>
               <li className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-medical-100" />
-                <span className="text-medical-100">123 Medical Center Drive<br />Healthcare City, HC 12345</span>
+                <span className="text-medical-100">123 Medical Center Drive<br />Healthcare City, HC Kano State, Nigeria.</span>
               </li>
             </ul>
           </div>
@@ -97,7 +132,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-medical-800 mt-12 pt-8 text-center text-medical-100">
-          <p>&copy; {new Date().getFullYear()} Medical Health College. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Rauda College. All rights reserved.</p>
+          <p className="py-2">Developed by <a href="https://linkedin.com/in/abdulsalamamtech">Amtech</a></p>
         </div>
       </div>
     </footer>

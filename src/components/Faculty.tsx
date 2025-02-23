@@ -30,7 +30,7 @@ const faculty = [
 
 const Faculty = () => {
   return (
-    <section className="py-20 bg-white">
+    <section id="staff" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,7 @@ const Faculty = () => {
           className="text-center mb-16"
         >
           <h2 className="font-playfair text-4xl font-bold text-medical-900 mb-4">
-            Our Distinguished Faculty
+            Our Distinguished Faculty Staff
           </h2>
           <p className="text-medical-600 max-w-2xl mx-auto">
             Learn from leading healthcare professionals and renowned researchers in their respective fields.

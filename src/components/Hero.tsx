@@ -41,7 +41,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <Carousel className="w-full h-screen">
         <CarouselContent>
           {slides.map((slide) => (
@@ -94,9 +94,9 @@ const Hero = () => {
                     <Button
                       variant="outline"
                       size="lg"
-                      className="border-white text-white hover:bg-white/10"
+                      className="border-white bg-white text-medical-800 hover:bg-medical-50"
                     >
-                      Virtual Tour
+                      Apply Now
                     </Button>
                   </div>
                 </motion.div>
