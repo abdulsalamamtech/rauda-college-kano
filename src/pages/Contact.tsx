@@ -188,8 +188,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-medical-900 mb-1">Phone</h3>
                     <p className="text-medical-600">
-                      +234 80 6545 4117<br />
-                      +234 80 6545 4117
+                      (+234) 08065454117<br />
+                      (+234) 08065454117
                     </p>
                   </div>
                 </div>

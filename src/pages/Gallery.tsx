@@ -7,19 +7,37 @@ const galleryItems = [
     id: 1,
     title: "Modern Medical Research",
     description: "State-of-the-art research facilities and equipment",
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=2080&auto=format&fit=crop",
+    image: "/images/sessions/group-photo-shot.jpg",
   },
   {
     id: 2,
     title: "Campus Environment",
     description: "Beautiful and serene campus surroundings",
-    image: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=2069&auto=format&fit=crop",
+    image: "images/sessions/student-recitation.jpg",
   },
   {
     id: 3,
     title: "Student Life",
     description: "Engaging and collaborative learning environment",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/sessions/student-group-shot-01.jpg",
+  },
+  {
+    id: 4,
+    title: "Student Life",
+    description: "Engaging and collaborative learning environment",
+    image: "/images/sessions/student-group-shot.jpg",
+  },
+  {
+    id: 5,
+    title: "Student Life",
+    description: "Engaging and collaborative learning environment",
+    image: "/images/sessions/student-graduation-gawn.jpg",
+  },
+  {
+    id: 6,
+    title: "Student Life",
+    description: "Engaging and collaborative learning environment",
+    image: "/images/sessions/officer-photo-shot.jpg",
   },
 ];
 

@@ -3,27 +3,51 @@ import { motion } from "framer-motion";
 
 const faculty = [
   {
-    name: "Dr. Sarah Wilson",
-    role: "Dean of Medicine",
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop",
-    specialty: "Cardiology"
+    name: "Dr. Muhammad Yakubu",
+    role: "Director/Provost/CEO",
+    image: "/images/admin-staff/staff-dir-provost-ceo.jpg",
+    specialty: "Medicine"
   },
   {
-    name: "Dr. James Chen",
-    role: "Head of Research",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2078&auto=format&fit=crop",
+    name: "Dr. Muhammad Aisha",
+    role: "Assist. Director",
+    image: "/images/admin-staff/staff-assistant-dir.jpg",
     specialty: "Neuroscience"
   },
   {
-    name: "Dr. Emily Roberts",
-    role: "Clinical Director",
-    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=2078&auto=format&fit=crop",
+    name: "Dr. Aminu Idris Manu",
+    role: "Dept. Provost/Secretary",
+    image: "/images/admin-staff/staff-acad-sec-deputy-provost-aminu-idris-manu.jpg",
     specialty: "Surgery"
   },
   {
-    name: "Dr. Michael Kumar",
-    role: "Professor",
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop",
+    name: "Dr. Aminu Kumar",
+    role: "Staff/Provost-of-colledge",
+    image: "/images/admin-staff/staff-provost-of-colledge.jpg",
+    specialty: "Pediatrics"
+  },
+  {
+    name: "Dr. Muhammad Yakubu",
+    role: "Director/Provost/CEO",
+    image: "/images/admin-staff/staff-dir-provost-ceo.jpg",
+    specialty: "Medicine"
+  },
+  {
+    name: "Dr. James Chen",
+    role: "Exam Officer",
+    image: "/images/admin-staff/staff-exam-officer.jpg",
+    specialty: "Neuroscience"
+  },
+  {
+    name: "Mr. Abubakar Y. Abubakar",
+    role: "Registrar",
+    image: "/images/admin-staff/staff-registrar-abu-y-abu.jpg",
+    specialty: "Surgery"
+  },
+  {
+    name: "Dr. Balla Kumar",
+    role: "Game Master",
+    image: "/images/admin-staff/staff-game-master.jpg",
     specialty: "Pediatrics"
   }
 ];

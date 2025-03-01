@@ -33,57 +33,57 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#home" className="text-medical-100 hover:text-white transition-colors">
+                  <a href="/" className="text-medical-100 hover:text-white transition-colors">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#services" className="text-medical-100 hover:text-white transition-colors">
+                  <a href="/#services" className="text-medical-100 hover:text-white transition-colors">
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#staff" className="text-medical-100 hover:text-white transition-colors">
+                  <a href="/#staff" className="text-medical-100 hover:text-white transition-colors">
                     Staff
                   </a>
                 </li>
                 <li>
-                  <a href="#facilities" className="text-medical-100 hover:text-white transition-colors">
+                  <a href="/#facilities" className="text-medical-100 hover:text-white transition-colors">
                     Facilities
                   </a>
                 </li>
                 <li>
-                  <a href="#news" className="text-medical-100 hover:text-white transition-colors">
+                  <a href="/#news" className="text-medical-100 hover:text-white transition-colors">
                     News & Events
                   </a>
                 </li>
               <li>
-                <a href="#courses" className="text-medical-100 hover:text-white transition-colors">
+                <a href="/#courses" className="text-medical-100 hover:text-white transition-colors">
                   Courses
                 </a>
               </li>
               <li>
-                <a href="about" className="text-medical-100 hover:text-white transition-colors">
+                <a href="/about" className="text-medical-100 hover:text-white transition-colors">
                   About
                 </a>
               </li>
               <li>
-                <a href="programs" className="text-medical-100 hover:text-white transition-colors">
+                <a href="/programs" className="text-medical-100 hover:text-white transition-colors">
                   Programs
                 </a>
               </li>
               <li>
-                <a href="gallery" className="text-medical-100 hover:text-white transition-colors">
+                <a href="/gallery" className="text-medical-100 hover:text-white transition-colors">
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="contact" className="text-medical-100 hover:text-white transition-colors">
+                <a href="/contact" className="text-medical-100 hover:text-white transition-colors">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#testimonial" className="text-medical-100 hover:text-white transition-colors">
+                <a href="/#testimonial" className="text-medical-100 hover:text-white transition-colors">
                   Testimonial
                 </a>
               </li>

@@ -42,7 +42,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl font-bold text-medical-900 mb-4">
-            Our Services
+            Our Profession Services
           </h2>
           <p className="text-medical-600 max-w-2xl mx-auto">
             Comprehensive healthcare education and training services designed to shape the future of medical professionals.

@@ -3,20 +3,49 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link, useLocation } from "react-router-dom";
+
 
 const courses = [
   {
-    title: "Doctor of Medicine",
+    id: "preliminary",
+    title: "Preliminary courses/ Remedial studies",
     duration: "4 Years",
     description: "Comprehensive medical education program leading to an M.D. degree."
   },
   {
-    title: "Bachelor of Nursing",
+    id: "community",
+    title: "Community health extension workers",
     duration: "3 Years",
     description: "Professional nursing program with hands-on clinical experience."
   },
   {
-    title: "Health Sciences",
+    id: "dental",
+    title: "Dental therapeutics",
+    duration: "4 Years",
+    description: "Interdisciplinary program covering various healthcare disciplines."
+  },
+  {
+    id: "public",
+    title: "Public health technology",
+    duration: "4 Years",
+    description: "Interdisciplinary program covering various healthcare disciplines."
+  },
+  {
+    id: "medical",
+    title: "Medical laboratory technology",
+    duration: "4 Years",
+    description: "Interdisciplinary program covering various healthcare disciplines."
+  },
+  {
+    id: "environmental",
+    title: "Environmental health",
+    duration: "4 Years",
+    description: "Interdisciplinary program covering various healthcare disciplines."
+  },
+  {
+    id: "health",
+    title: "Health information management",
     duration: "4 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   }
@@ -58,13 +87,15 @@ const Courses = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-medical-700 mb-6">{course.description}</p>
-                  <Button
-                    variant="outline"
-                    className="w-full border-medical-600 text-medical-600 hover:bg-medical-50"
-                  >
-                    Learn More
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  <a href={`/programs/#${course.id}`}>
+                    <Button
+                      variant="outline"
+                      className="w-full border-medical-600 text-medical-600 hover:bg-medical-50"
+                    >
+                      Learn More
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </a>
                 </CardContent>
               </Card>
             </motion.div>

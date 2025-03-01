@@ -3,7 +3,7 @@ import { Microscope, Hospital, GraduationCap, Book } from "lucide-react";
 
 const facilities = [
   {
-    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/college/teaching-lab-view-02.jpg",
     title: "Advanced Laboratories",
     description: "State-of-the-art research and training facilities.",
     icon: Microscope
@@ -15,7 +15,7 @@ const facilities = [
     icon: Hospital
   },
   {
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2132&auto=format&fit=crop",
+    image: "/images/college/class-room.jpg",
     title: "Smart Classrooms",
     description: "Technology-enabled learning environments.",
     icon: GraduationCap

@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 const programs = [
   {
-    title: "Doctor of Medicine (MD)",
+    id: "preliminary",
+    title: "Preliminary courses/ Remedial studies",
     duration: "4 Years",
     summary: "Our flagship medical program preparing future physicians through comprehensive medical education, clinical rotations, and research opportunities.",
     requirements: [
@@ -20,7 +21,8 @@ const programs = [
     careers: "Graduates pursue careers in various medical specialties, research, or academic medicine."
   },
   {
-    title: "Bachelor of Nursing (BSN)",
+    id: "community",
+    title: "Community health extension workers",
     duration: "3 Years",
     summary: "Comprehensive nursing program combining theoretical knowledge with extensive clinical practice in healthcare settings.",
     requirements: [
@@ -33,7 +35,8 @@ const programs = [
     careers: "Graduates work in hospitals, clinics, schools, and other healthcare facilities."
   },
   {
-    title: "Master of Public Health (MPH)",
+    id: "dental",
+    title: "Dental therapeutics",
     duration: "2 Years",
     summary: "Advanced degree program focusing on population health, epidemiology, and healthcare policy.",
     requirements: [
@@ -46,7 +49,50 @@ const programs = [
     careers: "Careers in public health organizations, research institutions, and government agencies."
   },
   {
-    title: "Health Sciences (BS)",
+    id: "public",
+    title: "Public health technology",
+    duration: "4 Years",
+    summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
+    requirements: [
+      "High school diploma or equivalent",
+      "Minimum GPA of 2.8",
+      "Science prerequisites",
+      "Personal statement",
+      "Interview"
+    ],
+    careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
+  },
+  {
+    id: "medical",
+    title: "Medical laboratory technology",
+    duration: "4 Years",
+    summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
+    requirements: [
+      "High school diploma or equivalent",
+      "Minimum GPA of 2.8",
+      "Science prerequisites",
+      "Personal statement",
+      "Interview"
+    ],
+    careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
+  },
+  {
+    id: "environmental",
+    title: "Environmental health",
+    duration: "4 Years",
+    summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
+    requirements: [
+      "High school diploma or equivalent",
+      "Minimum GPA of 2.8",
+      "Science prerequisites",
+      "Personal statement",
+      "Interview"
+    ],
+    careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
+  },
+  {
+    id: "health",
+    title: "Health information management",
     duration: "4 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
@@ -93,34 +139,36 @@ const Programs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
             >
-              <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                <CardHeader>
-                  <CardTitle className="text-2xl text-medical-800">
-                    {program.title}
-                  </CardTitle>
-                  <p className="text-medical-600">Duration: {program.duration}</p>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid md:grid-cols-3 gap-6">
-                    <div>
-                      <h3 className="font-semibold text-medical-800 mb-2">Program Summary</h3>
-                      <p className="text-medical-600">{program.summary}</p>
+              <div  id={`${program.id}`}>
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300 pt-8 pb-6">
+                  <CardHeader>
+                    <CardTitle className="text-2xl text-medical-800">
+                      {program.title}
+                    </CardTitle>
+                    <p className="text-medical-600">Duration: {program.duration}</p>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid md:grid-cols-3 gap-6">
+                      <div>
+                        <h3 className="font-semibold text-medical-800 mb-2">Program Summary</h3>
+                        <p className="text-medical-600">{program.summary}</p>
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-medical-800 mb-2">Requirements</h3>
+                        <ul className="list-disc list-inside text-medical-600 space-y-1">
+                          {program.requirements.map((req, i) => (
+                            <li key={i}>{req}</li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-medical-800 mb-2">Career Opportunities</h3>
+                        <p className="text-medical-600">{program.careers}</p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="font-semibold text-medical-800 mb-2">Requirements</h3>
-                      <ul className="list-disc list-inside text-medical-600 space-y-1">
-                        {program.requirements.map((req, i) => (
-                          <li key={i}>{req}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-medical-800 mb-2">Career Opportunities</h3>
-                      <p className="text-medical-600">{program.careers}</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </div>
             </motion.div>
           ))}
         </div>

@@ -59,16 +59,11 @@ const News = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className={`h-full hover:shadow-lg transition-shadow duration-300 bg-[url("${item.imageUrl}")] bg-cover bg-transparent bg-center`}>
+              <Card className={`h-full hover:shadow-lg transition-shadow duration-300 bg-cover bg-transparent bg-center`}>
                 <CardHeader>
                   <div className="flex items-center gap-2 text-medical-600 text-sm mb-2">
                     <Calendar className="h-4 w-4" />
                     {item.date}
-                  </div>
-                  <div className={`text-medical-500  py-3 bg-[url('/images/medical-icu-lab.png')]`}>
-                    Rauda college
-                    <img src="medical-icu-lab.png" alt="" />
-                    {/* <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop" alt="" /> */}
                   </div>
                   <CardTitle className="text-xl text-medical-800">
                     {item.title}
