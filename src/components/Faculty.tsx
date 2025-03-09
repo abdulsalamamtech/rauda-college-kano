@@ -9,44 +9,50 @@ const faculty = [
     specialty: "Medicine"
   },
   {
-    name: "Dr. Muhammad Aisha",
+    name: "Dr. Jamila Umar Ahmad",
     role: "Assist. Director",
     image: "/images/admin-staff/staff-assistant-dir.jpg",
-    specialty: "Neuroscience"
+    specialty: "Health"
+  },
+  {
+    name: "Dr. Zaharaddeen Yakubu",
+    role: "H.O.D Public Health",
+    image: "/images/admin-staff/",
+    specialty: "Public Health"
+  },
+  {
+    name: "Dr. Muhammad Tajo",
+    role: "H.O.D Community Health",
+    image: "/images/admin-staff/",
+    specialty: "Community Health"
   },
   {
     name: "Dr. Aminu Idris Manu",
     role: "Dept. Provost/Secretary",
     image: "/images/admin-staff/staff-acad-sec-deputy-provost-aminu-idris-manu.jpg",
-    specialty: "Surgery"
+    specialty: "Business"
   },
   {
-    name: "Dr. Aminu Kumar",
-    role: "Staff/Provost-of-colledge",
+    name: "Dr. Isah Safiyan Umar",
+    role: "Bursary/Admin Officer",
     image: "/images/admin-staff/staff-provost-of-colledge.jpg",
-    specialty: "Pediatrics"
+    specialty: "Accounting"
   },
   {
-    name: "Dr. Muhammad Yakubu",
-    role: "Director/Provost/CEO",
-    image: "/images/admin-staff/staff-dir-provost-ceo.jpg",
-    specialty: "Medicine"
-  },
-  {
-    name: "Dr. James Chen",
+    name: "Mr. Kabiru Ismail",
     role: "Exam Officer",
     image: "/images/admin-staff/staff-exam-officer.jpg",
-    specialty: "Neuroscience"
+    specialty: "Education"
   },
   {
     name: "Mr. Abubakar Y. Abubakar",
     role: "Registrar",
     image: "/images/admin-staff/staff-registrar-abu-y-abu.jpg",
-    specialty: "Surgery"
+    specialty: "Business"
   },
   {
-    name: "Dr. Balla Kumar",
-    role: "Game Master",
+    name: "Malam Nura Mukhtar",
+    role: "Secretary",
     image: "/images/admin-staff/staff-game-master.jpg",
     specialty: "Pediatrics"
   }

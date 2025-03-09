@@ -9,7 +9,7 @@ const programs = [
   {
     id: "preliminary",
     title: "Preliminary courses/ Remedial studies",
-    duration: "4 Years",
+    duration: "1 Years",
     summary: "Our flagship medical program preparing future physicians through comprehensive medical education, clinical rotations, and research opportunities.",
     requirements: [
       "Bachelor's degree from an accredited institution",
@@ -23,7 +23,7 @@ const programs = [
   {
     id: "community",
     title: "Community health extension workers",
-    duration: "3 Years",
+    duration: "2 Years",
     summary: "Comprehensive nursing program combining theoretical knowledge with extensive clinical practice in healthcare settings.",
     requirements: [
       "High school diploma or equivalent",
@@ -51,7 +51,7 @@ const programs = [
   {
     id: "public",
     title: "Public health technology",
-    duration: "4 Years",
+    duration: "2 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
       "High school diploma or equivalent",
@@ -65,7 +65,7 @@ const programs = [
   {
     id: "medical",
     title: "Medical laboratory technology",
-    duration: "4 Years",
+    duration: "3 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
       "High school diploma or equivalent",
@@ -79,7 +79,7 @@ const programs = [
   {
     id: "environmental",
     title: "Environmental health",
-    duration: "4 Years",
+    duration: "3 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
       "High school diploma or equivalent",
@@ -93,7 +93,7 @@ const programs = [
   {
     id: "health",
     title: "Health information management",
-    duration: "4 Years",
+    duration: "2 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
       "High school diploma or equivalent",

@@ -10,43 +10,43 @@ const courses = [
   {
     id: "preliminary",
     title: "Preliminary courses/ Remedial studies",
-    duration: "4 Years",
-    description: "Comprehensive medical education program leading to an M.D. degree."
+    duration: "1 Years",
+    description: "Interdisciplinary program covering various healthcare disciplines."
   },
   {
     id: "community",
     title: "Community health extension workers",
-    duration: "3 Years",
-    description: "Professional nursing program with hands-on clinical experience."
+    duration: "2 Years",
+    description: "Interdisciplinary program covering various healthcare disciplines."
   },
   {
     id: "dental",
     title: "Dental therapeutics",
-    duration: "4 Years",
+    duration: "2 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   },
   {
     id: "public",
     title: "Public health technology",
-    duration: "4 Years",
+    duration: "2 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   },
   {
     id: "medical",
     title: "Medical laboratory technology",
-    duration: "4 Years",
-    description: "Interdisciplinary program covering various healthcare disciplines."
+    duration: "3 Years",
+    description: "Professional nursing program with hands-on clinical experience."
   },
   {
     id: "environmental",
     title: "Environmental health",
-    duration: "4 Years",
+    duration: "3 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   },
   {
     id: "health",
     title: "Health information management",
-    duration: "4 Years",
+    duration: "2 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   }
 ];

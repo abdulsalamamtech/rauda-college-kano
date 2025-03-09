@@ -58,16 +58,14 @@ const About = () => {
                   <div>
                     <h2 className="text-2xl font-semibold text-medical-800 mb-4">Our Vision</h2>
                     <p className="text-medical-600">
-                      To be a leading institution in medical education, fostering innovation,
-                      research excellence, and compassionate healthcare professionals who will
-                      shape the future of medicine.
+                    "Our vision is to be a recognized center of excellence in healthcare education, research, and practice. We strive to be a leading institution that produces competent and compassionate healthcare professionals who uphold the highest standards of patient care, ethics, and innovation. Rauda College of Health Sciences Kano envisions a future where our graduates lead positive transformations in addressing pressing challenges and advancing the overall health and wellness of the global community."
                     </p>
                   </div>
                   <div className="rounded-lg overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                      src="/images/rauda-college-logo.jpg"
                       alt="Medical students collaborating"
-                      className="w-full h-[300px] object-cover"
+                      className="w-full h-[320px] object-cover"
                     />
                   </div>
                 </div>
@@ -79,15 +77,8 @@ const About = () => {
               <CardContent className="p-6">
                 <h2 className="text-2xl font-semibold text-medical-800 mb-4">Our Mission</h2>
                 <p className="text-medical-600 mb-4">
-                  We are dedicated to:
+                "Our mission at Rauda College of Health Sciences Kano is to provide accessible and comprehensive education that equips students with the knowledge, skills, and values needed to make meaningful contributions to the health and well-being of their communities. Through rigorous academic programs, practical training, and ethical guidance, we empower future healthcare professionals to excel in their careers and positively impact the lives of individuals and society as a whole."
                 </p>
-                <ul className="list-disc list-inside space-y-2 text-medical-600">
-                  <li>Providing exceptional medical education</li>
-                  <li>Advancing medical research and innovation</li>
-                  <li>Promoting healthcare excellence and patient care</li>
-                  <li>Fostering a diverse and inclusive learning environment</li>
-                  <li>Contributing to community health and well-being</li>
-                </ul>
               </CardContent>
             </Card>
 
