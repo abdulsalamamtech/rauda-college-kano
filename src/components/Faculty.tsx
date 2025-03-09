@@ -17,13 +17,13 @@ const faculty = [
   {
     name: "Dr. Zaharaddeen Yakubu",
     role: "H.O.D Public Health",
-    image: "/images/admin-staff/",
+    image: "/images/admin-staff/rauda-staff-zahraddeen-yakubu.jpeg",
     specialty: "Public Health"
   },
   {
     name: "Dr. Muhammad Tajo",
     role: "H.O.D Community Health",
-    image: "/images/admin-staff/",
+    image: "/images/admin-staff/rauda-staff-muhammad-tajo.jpeg",
     specialty: "Community Health"
   },
   {
@@ -35,13 +35,13 @@ const faculty = [
   {
     name: "Dr. Isah Safiyan Umar",
     role: "Bursary/Admin Officer",
-    image: "/images/admin-staff/staff-provost-of-colledge.jpg",
+    image: "/images/admin-staff/rauda-staff-isah-safiyan-umar.jpeg",
     specialty: "Accounting"
   },
   {
     name: "Mr. Kabiru Ismail",
     role: "Exam Officer",
-    image: "/images/admin-staff/staff-exam-officer.jpg",
+    image: "/images/admin-staff/rauda-staff-kabir-ismail.jpeg",
     specialty: "Education"
   },
   {

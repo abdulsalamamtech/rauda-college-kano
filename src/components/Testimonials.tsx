@@ -6,17 +6,17 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote: "The quality of education and practical training here is exceptional. The faculty's dedication to student success is remarkable.",
-    author: "Dr. Emily Thompson",
+    author: "Dr. Emily Admam",
     role: "Former Student, Now Chief Resident"
   },
   {
     quote: "State-of-the-art facilities and a supportive learning environment helped me achieve my dream of becoming a medical professional.",
-    author: "Dr. Michael Chen",
+    author: "Dr. Aisha Ibrahim",
     role: "Alumni, Cardiology Specialist"
   },
   {
     quote: "The hands-on experience and research opportunities provided here are unmatched. It prepared me well for my medical career.",
-    author: "Dr. Sarah Martinez",
+    author: "Dr. Sarah Imran",
     role: "Research Fellow"
   }
 ];

@@ -176,9 +176,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-medical-900 mb-1">Address</h3>
                     <p className="text-medical-600">
-                      123 Medical College Street<br />
-                      Healthcare District<br />
-                      Kano State, Nigeria.
+                      Behind Kangon Shekarau, Bela Road,<br />
+                      Rangaza LGA, Kano State, Nigeria.
                     </p>
                   </div>
                 </div>
@@ -230,7 +229,7 @@ const Contact = () => {
               <div className="w-full h-[300px] rounded-lg overflow-hidden">
                 <iframe
                   title="Medical College Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830894598!2d-74.11976397304601!3d40.697403442722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1645564938227!5w!3h!4m2!1d-74.0059728!2d40.7127753"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3033.1520421879727!2d8.597514!3d12.047351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDAyJzUwLjUiTiA4wrAzNSc1MS4xIkU!5e1!3m2!1sen!2sng!4v1741517181793!5m2!1sen!2sng"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

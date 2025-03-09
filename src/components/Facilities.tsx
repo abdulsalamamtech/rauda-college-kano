@@ -9,9 +9,9 @@ const facilities = [
     icon: Microscope
   },
   {
-    image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=2073&auto=format&fit=crop",
-    title: "Teaching Hospital",
-    description: "Modern teaching hospital for practical experience.",
+    image: "/images/college/computer-lab-unsplash-istockphoto.jpg",
+    title: "Advanced Digital Lab",
+    description: "Modern teaching computer lab for research.",
     icon: Hospital
   },
   {

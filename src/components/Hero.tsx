@@ -18,13 +18,13 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop',
-      title: 'Modern Healthcare Education'
+      image: 'images/college/muslima-doctor.jpg',
+      title: 'Professionals Medical Staff'
     },
     {
       id: 2,
-      image: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?q=80&w=2091&auto=format&fit=crop',
-      title: 'Advanced Research Facilities'
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop',
+      title: 'Modern Healthcare Education'
     },
     {
       id: 3,

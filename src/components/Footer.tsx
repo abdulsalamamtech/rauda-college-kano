@@ -102,10 +102,15 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-medical-100" />
                 <span className="text-medical-100">+234 80 6545 4117</span>
               </li>
+              <a href="https://maps.app.goo.gl/uFz62T7wimdm1WbJ8" target="_blank" rel="noopener noreferrer" className="py-2">
               <li className="flex items-center space-x-3">
-                <MapPin className="h-5 w-5 text-medical-100" />
-                <span className="text-medical-100">123 Medical Center Drive<br />Healthcare City, HC Kano State, Nigeria.</span>
+                  <MapPin className="h-5 w-5 text-medical-100" />
+                  <span className="text-medical-100">
+                    Behind Kangon Shekarau, Bela Road,<br />
+                    Rangaza LGA, Kano State, Nigeria.
+                  </span>
               </li>
+              </a>
             </ul>
           </div>
 
