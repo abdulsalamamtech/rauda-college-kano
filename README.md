@@ -36,6 +36,57 @@ npm i
 npm run dev
 ```
 
+
+### Deploy a Next.js App with Node.js to shared hosting (cpanel)
+Add homepage domain name to the package.json file
+```json
+  "homepage": "https://domain.edu.ng/",
+```
+```sh
+    # For react.js
+    npm run build
+
+    # For next.js
+    next build && next export
+
+    zip -r dist.zip dist/
+```
+Login to cPanel.
+
+Open File Manager.
+
+Navigate to public_html/ (this is your website’s root folder).
+
+Click Upload, select your dist.zip file, and wait for the upload to complete.
+Once uploaded, extract the dist.zip file.
+
+Move the contents of the extracted dist/ folder into public_html/:
+Ensure that index.html and the assets/ folder are directly inside public_html/.
+
+If your app uses routing (e.g., React Router), you must set up .htaccess to ensure deep links work.
+
+In File Manager, open or create a .htaccess file inside public_html/.
+Add the following rules
+```sh
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+```
+Test Your Website
+
+Open your browser and visit your domain (https://yourdomain.com).
+If everything is correct, your Vite app should load.
+
+If you see a 404 error, try:
+    - Clearing your browser cache.
+    - Checking if .htaccess is correctly configured.
+    - Ensuring all files are properly inside public_html/.
+
+✅ Your Vite (React/Next.js) app is now live on shared hosting! 🎉🚀
+
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
