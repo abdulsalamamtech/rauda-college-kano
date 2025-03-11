@@ -187,8 +187,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-medical-900 mb-1">Phone</h3>
                     <p className="text-medical-600">
-                      (+234) 08065454117<br />
-                      (+234) 08065454117
+                      (+234) 0806 545 4117<br />
+                      (+234) 0913 419 9445 <br />
+                      (+234) 0806 567 3930 <br />
+                      (+234) 0803 511 5310
                     </p>
                   </div>
                 </div>
