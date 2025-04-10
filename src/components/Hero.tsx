@@ -18,7 +18,8 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: 'images/college/muslima-doctor.jpg',
+      // image: 'images/college/muslima-doctor.jpg',
+      image: 'rauda-college-frontview.jpeg',
       title: 'Professionals Medical Staff'
     },
     {
