@@ -69,7 +69,7 @@ const Faculty = () => {
           className="text-center mb-16"
         >
           <h2 className="font-playfair text-4xl font-bold text-medical-900 mb-4">
-            Our Distinguished Faculty Staff
+            Our Distinguished College Staff
           </h2>
           <p className="text-medical-600 max-w-2xl mx-auto">
             Learn from leading healthcare professionals and renowned researchers in their respective fields.

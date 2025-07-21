@@ -15,13 +15,13 @@ const courses = [
   },
   {
     id: "community",
-    title: "Community health extension workers",
+    title: "Community health extension workers (CHEW)",
     duration: "2 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   },
   {
     id: "dental",
-    title: "Dental therapeutics",
+    title: "Dental Therapy",
     duration: "2 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   },
@@ -33,7 +33,8 @@ const courses = [
   },
   {
     id: "medical",
-    title: "Medical laboratory technology",
+    // title: "Medical laboratory technology (MLT)",
+    title: "Medical Lab (MLT)",
     duration: "3 Years",
     description: "Professional nursing program with hands-on clinical experience."
   },
@@ -45,7 +46,7 @@ const courses = [
   },
   {
     id: "health",
-    title: "Health information management",
+    title: "Health information management (HIM)",
     duration: "2 Years",
     description: "Interdisciplinary program covering various healthcare disciplines."
   }

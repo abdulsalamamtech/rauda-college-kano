@@ -12,39 +12,50 @@ const programs = [
     duration: "1 Years",
     summary: "Our flagship medical program preparing future physicians through comprehensive medical education, clinical rotations, and research opportunities.",
     requirements: [
-      "Bachelor's degree from an accredited institution",
-      "Minimum GPA of 3.5",
-      "MCAT scores",
-      "Letters of recommendation",
-      "Clinical experience or shadowing"
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
+      "Science prerequisites",
     ],
     careers: "Graduates pursue careers in various medical specialties, research, or academic medicine."
   },
   {
     id: "community",
     title: "Community health extension workers",
+    duration: "3 Years",
+    summary: "Comprehensive nursing program combining theoretical knowledge with extensive clinical practice in healthcare settings.",
+    requirements: [
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
+      "Science prerequisites",
+    ],
+    careers: "Graduates work in hospitals, clinics, schools, and other healthcare facilities."
+  },
+   {
+    id: "junior-community",
+    title: "Junior Community health extension workers",
     duration: "2 Years",
     summary: "Comprehensive nursing program combining theoretical knowledge with extensive clinical practice in healthcare settings.",
     requirements: [
-      "High school diploma or equivalent",
-      "Minimum GPA of 3.0",
-      "Science and math prerequisites",
-      "Healthcare experience preferred",
-      "Personal statement"
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
+      "Science prerequisites",
     ],
     careers: "Graduates work in hospitals, clinics, schools, and other healthcare facilities."
   },
   {
     id: "dental",
-    title: "Dental therapeutics",
+    title: "Dental Therapy",
     duration: "2 Years",
     summary: "Advanced degree program focusing on population health, epidemiology, and healthcare policy.",
     requirements: [
-      "Bachelor's degree in related field",
-      "Minimum GPA of 3.0",
-      "GRE scores",
-      "Work experience preferred",
-      "Research interest statement"
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
+      "Science prerequisites",
+      // "Bachelor's degree in related field",
+      // "Minimum GPA of 3.0",
+      // "GRE scores",
+      // "Work experience preferred",
+      // "Research interest statement"
     ],
     careers: "Careers in public health organizations, research institutions, and government agencies."
   },
@@ -54,11 +65,9 @@ const programs = [
     duration: "2 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
-      "High school diploma or equivalent",
-      "Minimum GPA of 2.8",
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
       "Science prerequisites",
-      "Personal statement",
-      "Interview"
     ],
     careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
   },
@@ -68,11 +77,9 @@ const programs = [
     duration: "3 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
-      "High school diploma or equivalent",
-      "Minimum GPA of 2.8",
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
       "Science prerequisites",
-      "Personal statement",
-      "Interview"
     ],
     careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
   },
@@ -82,11 +89,9 @@ const programs = [
     duration: "3 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
-      "High school diploma or equivalent",
-      "Minimum GPA of 2.8",
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
       "Science prerequisites",
-      "Personal statement",
-      "Interview"
     ],
     careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
   },
@@ -96,11 +101,9 @@ const programs = [
     duration: "2 Years",
     summary: "Interdisciplinary program covering various aspects of healthcare, preparing students for diverse health-related careers.",
     requirements: [
-      "High school diploma or equivalent",
-      "Minimum GPA of 2.8",
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
       "Science prerequisites",
-      "Personal statement",
-      "Interview"
     ],
     careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
   }

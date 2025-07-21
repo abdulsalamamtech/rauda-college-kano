@@ -19,7 +19,8 @@ const Hero = () => {
     {
       id: 1,
       // image: 'images/college/muslima-doctor.jpg',
-      image: 'rauda-college-frontview.jpeg',
+      // image: 'rauda-college-frontview.jpeg',
+      image: './images/rauda-college-front-view.jpeg',
       title: 'Professionals Medical Staff'
     },
     {
