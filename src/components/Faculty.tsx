@@ -28,14 +28,20 @@ const faculty = [
   },
   {
     name: "Dr. Aminu Idris Manu",
-    role: "Dept. Provost/Secretary",
+    role: "Deputy Provost Secretary",
     image: "/images/admin-staff/staff-acad-sec-deputy-provost-aminu-idris-manu.jpg",
     specialty: "Business"
   },
-  {
-    name: "Dr. Isah Safiyan Umar",
-    role: "Bursary/Admin Officer",
-    image: "/images/admin-staff/rauda-staff-isah-safiyan-umar.jpeg",
+  // {
+  //   name: "Dr. Isah Safiyan Umar",
+  //   role: "Bursary/Admin Officer",
+  //   image: "/images/admin-staff/rauda-staff-isah-safiyan-umar.jpeg",
+  //   specialty: "Accounting"
+  // },
+    {
+    name: "Jabir Muhammad Yakub",
+    role: "Auditor",
+    image: "/images/admin-staff/rauda-staff-auditor-jabir-muhammad-yakub.jpeg",
     specialty: "Accounting"
   },
   {
@@ -45,13 +51,13 @@ const faculty = [
     specialty: "Education"
   },
   {
-    name: "Mr. Abubakar Y. Abubakar",
+    name: "Dr. Abubakar Y. Abubakar (PHD)",
     role: "Registrar",
     image: "/images/admin-staff/staff-registrar-abu-y-abu.jpg",
     specialty: "Business"
   },
   {
-    name: "Malam Nura Mukhtar",
+    name: "Nura Mukhtar",
     role: "Secretary",
     image: "/images/admin-staff/staff-game-master.jpg",
     specialty: "Pediatrics"

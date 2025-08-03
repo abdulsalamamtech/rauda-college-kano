@@ -20,7 +20,7 @@ const programs = [
   },
   {
     id: "community",
-    title: "Community health extension workers",
+    title: "Community health extension workers (CHEW)",
     duration: "3 Years",
     summary: "Comprehensive nursing program combining theoretical knowledge with extensive clinical practice in healthcare settings.",
     requirements: [
@@ -28,11 +28,11 @@ const programs = [
       "The minimum of five credits in science subject",
       "Science prerequisites",
     ],
-    careers: "Graduates work in hospitals, clinics, schools, and other healthcare facilities."
+    careers: "Community Health Extension Workers (CHEW) can work in primary healthcare centres, government hospitals, and NGO programs, serving as frontline health providers in rural and urban communities. They are often involved in maternal and child care, immunization, health education, and disease prevention."
   },
    {
     id: "junior-community",
-    title: "Junior Community health extension workers",
+    title: "Junior Community health extension workers (J-CHEW)",
     duration: "2 Years",
     summary: "Comprehensive nursing program combining theoretical knowledge with extensive clinical practice in healthcare settings.",
     requirements: [
@@ -40,7 +40,7 @@ const programs = [
       "The minimum of five credits in science subject",
       "Science prerequisites",
     ],
-    careers: "Graduates work in hospitals, clinics, schools, and other healthcare facilities."
+    careers: "Junior Community Health Extension Workers (J-CHEW) have career paths as health assistants in clinics and community health posts. They support healthcare delivery through health talks, home visits, and minor treatments, especially in underserved areas."
   },
   {
     id: "dental",
@@ -57,7 +57,7 @@ const programs = [
       // "Work experience preferred",
       // "Research interest statement"
     ],
-    careers: "Careers in public health organizations, research institutions, and government agencies."
+    careers: "Dental health professionals have opportunities to work in dental clinics, general hospitals, and oral health outreach programs. They can serve as dental assistants, dental technicians, or oral health educators, providing both preventive and basic clinical dental care."
   },
   {
     id: "public",
@@ -69,7 +69,7 @@ const programs = [
       "The minimum of five credits in science subject",
       "Science prerequisites",
     ],
-    careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
+    careers: "Public Health graduates can pursue careers in disease control agencies, health ministries, non-governmental organizations (NGOs), and international health bodies. They work as public health officers, environmental health officers, health educators, or policy advisors, focusing on disease prevention and health promotion."
   },
   {
     id: "medical",
@@ -81,7 +81,7 @@ const programs = [
       "The minimum of five credits in science subject",
       "Science prerequisites",
     ],
-    careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
+    careers: "Medical Laboratory technicians are essential in hospitals, diagnostic centres, research laboratories, and blood banks. They perform tests on patient samples to aid in diagnosis and treatment, and may also work in public health laboratories or private diagnostic firms."
   },
   {
     id: "environmental",
@@ -105,7 +105,31 @@ const programs = [
       "The minimum of five credits in science subject",
       "Science prerequisites",
     ],
-    careers: "Graduates work in healthcare administration, research, education, and clinical support roles."
+    careers: "Health Information Management (HIM) professionals work in hospitals, clinics, and government health agencies, managing patient records, hospital data, and digital health systems. They ensure accurate record-keeping, data privacy, and support informed decision-making in healthcare delivery."
+  },
+  {
+    id: "epidemiology",
+    title: "Epidemiology",
+    duration: "2 Years",
+    summary: "Epidemiology program covering various aspects of healthcare, preparing students for diverse health-related careers.",
+    requirements: [
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
+      "Science prerequisites",
+    ],
+    careers: "Epidemiology graduates can work with the Nigeria Centre for Disease Control (NCDC), Ministry of Health, WHO, and other international health organizations. They investigate disease outbreaks, analyze health data, and help design strategies for disease control and prevention."
+  },
+  {
+    id: "retrainee",
+    title: "Retrainee",
+    duration: "2 Years",
+    summary: "Retrainee program covering various aspects of healthcare, preparing students for diverse health-related careers.",
+    requirements: [
+      "High school certificate or equivalent",
+      "The minimum of five credits in science subject",
+      "Science prerequisites",
+    ],
+    careers: "Retrainees often return to their previous positions with improved qualifications, making them eligible for promotions or leadership roles. They may also become mentors, trainers, or supervisors in health programs, or take on expanded roles in NGOs and public health sectors."
   }
 ];
 
