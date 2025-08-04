@@ -3,32 +3,32 @@ import { motion } from "framer-motion";
 
 const faculty = [
   {
-    name: "Dr. Muhammad Yakubu",
+    name: "Mr. Muhammad Yakubu",
     role: "Director/Provost/CEO",
     image: "/images/admin-staff/staff-dir-provost-ceo.jpg",
     specialty: "Medicine"
   },
   {
-    name: "Dr. Jamila Umar Ahmad",
+    name: "Mrs. Jamila Umar Ahmad",
     role: "Assist. Director",
     image: "/images/admin-staff/staff-assistant-dir.jpg",
     specialty: "Health"
   },
   {
-    name: "Dr. Zaharaddeen Yakubu",
+    name: "Mr. Zaharaddeen Yakubu",
     role: "H.O.D Public Health",
     image: "/images/admin-staff/rauda-staff-zahraddeen-yakubu.jpeg",
     specialty: "Public Health"
   },
   {
-    name: "Dr. Muhammad Tajo",
+    name: "Mr. Muhammad Tajo",
     role: "H.O.D Community Health",
     image: "/images/admin-staff/rauda-staff-muhammad-tajo.jpeg",
     specialty: "Community Health"
   },
   {
-    name: "Dr. Aminu Idris Manu",
-    role: "Deputy Provost Secretary",
+    name: "Dr. Aminu Idris Manu (PHD)",
+    role: "Deputy Provost / Academy Secretary",
     image: "/images/admin-staff/staff-acad-sec-deputy-provost-aminu-idris-manu.jpg",
     specialty: "Business"
   },
@@ -39,7 +39,7 @@ const faculty = [
   //   specialty: "Accounting"
   // },
     {
-    name: "Jabir Muhammad Yakub",
+    name: "Mr. Jabir Muhammad Yakub",
     role: "Auditor",
     image: "/images/admin-staff/rauda-staff-auditor-jabir-muhammad-yakub.jpeg",
     specialty: "Accounting"
@@ -57,7 +57,7 @@ const faculty = [
     specialty: "Business"
   },
   {
-    name: "Nura Mukhtar",
+    name: "Mr. Nura Mukhtar",
     role: "Secretary",
     image: "/images/admin-staff/staff-game-master.jpg",
     specialty: "Pediatrics"
